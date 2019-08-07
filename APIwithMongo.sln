@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesAPIwithMongo", "NotesAPIwithMongo\NotesAPIwithMongo.csproj", "{389B87C1-ADEE-4D88-A79A-2A64622614B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{D28FA3E2-F731-4ACC-A102-5A9A3BD45695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{019DFF91-B88A-453E-A8A8-FB110DE50512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{BFEF4AED-D113-4E26-B297-7620CC926D8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{389B87C1-ADEE-4D88-A79A-2A64622614B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389B87C1-ADEE-4D88-A79A-2A64622614B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389B87C1-ADEE-4D88-A79A-2A64622614B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389B87C1-ADEE-4D88-A79A-2A64622614B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28FA3E2-F731-4ACC-A102-5A9A3BD45695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28FA3E2-F731-4ACC-A102-5A9A3BD45695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28FA3E2-F731-4ACC-A102-5A9A3BD45695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28FA3E2-F731-4ACC-A102-5A9A3BD45695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019DFF91-B88A-453E-A8A8-FB110DE50512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019DFF91-B88A-453E-A8A8-FB110DE50512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019DFF91-B88A-453E-A8A8-FB110DE50512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019DFF91-B88A-453E-A8A8-FB110DE50512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEF4AED-D113-4E26-B297-7620CC926D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEF4AED-D113-4E26-B297-7620CC926D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEF4AED-D113-4E26-B297-7620CC926D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEF4AED-D113-4E26-B297-7620CC926D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F08FB2D3-7E7E-40A9-9C0A-67E69A3ED57D}
+	EndGlobalSection
+EndGlobal

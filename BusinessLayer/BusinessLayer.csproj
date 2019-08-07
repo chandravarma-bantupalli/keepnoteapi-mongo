@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DataAccess">
+      <HintPath>..\DataAccess\bin\Debug\netcoreapp2.2\DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Entities">
+      <HintPath>..\Entities\bin\Debug\netcoreapp2.2\Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
